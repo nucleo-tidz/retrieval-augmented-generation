@@ -10,6 +10,9 @@
 	<PackageReference Include="Microsoft.Data.SqlClient" Version="5.2.2" />
 	<PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="8.0.1" />
 	<PackageReference Include="Microsoft.Extensions.Configuration" Version="8.0.0" />
+	<PackageReference Include="Microsoft.KernelMemory.Core" Version="0.73.240906.1" />
+	<PackageReference Include="Microsoft.KernelMemory.MemoryDb.SQLServer" Version="0.73.240906.1" />
+		<PackageReference Include="Microsoft.SemanticKernel" Version="1.17.2" />
 	</ItemGroup>
 
 </Project>
