@@ -10,7 +10,7 @@ namespace infrastructure
     {
         public static IServiceCollection AddSemanticKernel(this IServiceCollection services, IConfiguration configuration)
         {
-            //https://johnnyreilly.com/using-kernel-memory-to-chunk-documents-into-azure-ai-search
+          
             return services.AddTransient(serviceProvider =>
             {
                 RedisConfig redisConfig = new RedisConfig
